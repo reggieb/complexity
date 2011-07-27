@@ -1,0 +1,28 @@
+Complexity
+==========
+
+Comprises two classes:
+
+Complexity: Tests the complexity of a string. Complexity is tested against
+character content and does not take account of string length.
+
+RandomString: Generates strings of random characters
+
+
+Example
+=======
+
+Complexity.score("This")  --> 2
+Complexity.score("this")  --> 1
+Complexity.score("This1") --> 3
+Complexity.score("this!")  --> 2
+
+RandomString.new   --> fajcp63VkFVUUcdNJDmd1TPgGs69vv2pEHvzFc2d
+RandomString.new   --> f7V8eeiGXVSk02dXDNtdd5S2d1eF8gHML4pM5bFd
+RandomString.new   --> c1RY4x63wUA22ajnbgEeXkgz6a8z4RWgH0nSYa8z
+
+RandomString.new(length) --> A string of given length (no. of characters)
+RandomString.new(5)  --> 5tH43
+RandomString.new(10) --> Eft43syN42
+
+Copyright (c) 2011 Rob Nichols, released under the MIT license
